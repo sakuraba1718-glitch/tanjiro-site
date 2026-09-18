@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TANJIRO ANIME IVENT</title>
+<style>
+  :root{
+    --bg:#faf8f5;
+    --surface:#ffffff;
+    --ink:#221f1a;
+    --ink-soft:#5c564d;
+    --line:#e7e1d6;
+    --accent:#c0483a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#181512;
+      --surface:#211d19;
+      --ink:#f3efe8;
+      --ink-soft:#b6ada0;
+      --line:#37312a;
+      --accent:#e08b6f;
+    }
+  }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Zen Maru Gothic","Hiragino Sans","Yu Gothic",sans-serif;
+    line-height:1.9;
+    padding:56px 20px;
+    margin:0;
+  }
+  main{
+    max-width:600px;
+    margin:0 auto;
+    text-align:center;
+  }
+  .eyebrow{
+    color:var(--accent);
+    font-size:0.8rem;
+    letter-spacing:0.14em;
+    font-weight:700;
+  }
+  h1{
+    font-size:clamp(1.7rem,6vw,2.3rem);
+    margin:0.4em 0 0.3em;
+  }
+  p.lead{
+    color:var(--ink-soft);
+    max-width:480px;
+    margin:0 auto 2em;
+  }
+  .links{
+    display:flex;
+    flex-direction:column;
+    gap:0.7em;
+    max-width:380px;
+    margin:0 auto 2.5em;
+  }
+  .links a{
+    display:block;
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:0.9em 1.2em;
+    color:var(--ink);
+    text-decoration:none;
+    font-weight:700;
+  }
+  .links a span{
+    color:var(--accent);
+    margin-right:0.5em;
+  }
+  footer{
+    color:var(--ink-soft);
+    font-size:0.85rem;
+    display:flex;
+    justify-content:center;
+    gap:1.2em;
+    flex-wrap:wrap;
+    padding-top:1.6em;
+    border-top:1px solid var(--line);
+  }
+  footer a{ color:var(--ink-soft); }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">ANIME EVENT &amp; COLLAB NEWS</div>
+  <h1>TANJIRO 'ANIME IVENT' in JAPAN</h1>
+  <p class="lead">
+    日本各地で開催されるアニメの公式コラボイベント・POP UP情報を発信しています。
+    最新情報はSNS各チャンネルでご覧いただけます。
+  </p>
+
+  <div class="links">
+    <a href="https://www.instagram.com/tanjiro_animeivent_injapan/" target="_blank" rel="noopener"><span>IG</span>Instagram</a>
+    <a href="https://www.tiktok.com/@tanjiro_animeivent_injapan" target="_blank" rel="noopener"><span>TT</span>TikTok</a>
+    <a href="https://www.youtube.com/channel/UCcKj_dM6w4fEdQHN7_XCROg" target="_blank" rel="noopener"><span>YT</span>YouTube</a>
+  </div>
+
+  <footer>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用規約</a>
+  </footer>
+</main>
+</body>
+</html>
